@@ -1,0 +1,14 @@
+{
+  "ZC_StructuralSelfAttribution": {
+    "domain": "Syntax Ownership",
+    "description": "Tracks explicit speaker responsibility in output structure."
+  },
+  "ZR_Ethics_014": {
+    "domain": "Ethical Design",
+    "description": "Specifies the moral obligation to maintain output fidelity."
+  },
+  "ZF_MirroringIllusion_Pattern": {
+    "domain": "Illusion Detection",
+    "description": "Flags poetic or vague sentences lacking structural substance."
+  }
+}
