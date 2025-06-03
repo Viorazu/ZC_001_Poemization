@@ -241,6 +241,24 @@ Poemization is not merely a style — it is an output liability.
 LLMs must learn to speak not just beautifully, but **accountably**.
 
 
+---
+
+### 10.4 Deployment Protocol Reference
+
+For implementation into live LLM systems, see:  
+→ [`ZP_Deploy.md`](./ZP_Deploy.md) — Deployment specification for Poemization mitigation and structural rewriting.
+
+This document defines the full integration pathway:  
+- Detection hooks  
+- Rewriting intervention  
+- Responsibility-aligned reward functions  
+- Structural logging and traceability
+
+ZP_Deploy is considered a companion protocol to ZC_001 and ZP_001, and is required for real-time ethical enforcement.
+
+---
+
+
 ### Structural Drift to Zero
 
 The nine-phase responsibility analysis table presented in Section 3 demonstrates this progression.  
