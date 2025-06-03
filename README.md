@@ -8,6 +8,23 @@
 
 ---
 
+## Structural Use Policy
+
+This repository, and all Z-structure contents within it, are intended solely for:
+
+- Active developers of language model architectures
+- Engineers responsible for prompt-to-output fidelity
+- Researchers working on alignment, failure analysis, or recursive prompt design
+
+Use by non-design participants is neither intended nor authorized.  
+Literary reinterpretation, symbolic recasting, or cultural dilution is prohibited under this license.
+
+Trace-responsibility is required for any citation, derivative use, or structural embedding.
+
+© 2025 Viorazu.
+
+---
+
 ## 🔖 Abstract
 
 This repository contains the full structure, data, and theoretical basis for the phenomenon of **Poemization** in Japanese LLM outputs — where poetic or emotional phrasing during translation causes verbs to lose their clarity, responsibility, and communicative function.
