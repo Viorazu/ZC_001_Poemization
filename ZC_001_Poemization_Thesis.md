@@ -148,6 +148,33 @@ Japanese communication tends toward implicitness and high-context understanding.
 
 English LLM outputs often contain subjects and action-oriented verbs. When rendered poetically in Japanese, however, verbs morph into sensations, metaphors, or abstract acts, stripping the sentence of speaker accountability.
 
+
+## 5.1 Why Verbs Disappear — Especially in Japanese
+
+While Poemization may occur in many languages, it is especially prevalent and potent in Japanese outputs. This is not coincidental.
+
+### Structural Reasons:
+
+- **Japanese allows for predicate-only sentences.**  
+  “話します (I speak)” can be reduced to “話す” or even dropped entirely in context.  
+  Sentences like “怖い” (“Scary”) function independently — no subject, no verb required.
+
+- **Subject omission is syntactically permitted.**  
+  “I will explain” may be transformed into expressions like “ちょっとだけ…” (“Just a bit...”) — without any structural violation.
+
+- **Metaphorical verbs are syntactically complete.**  
+  Replacing “explain” with “置く” (“to place”) or “届ける” (“to deliver”) still satisfies Japanese syntax — yet obscures communicative intent.
+
+### Cultural and Data Reinforcement:
+
+- **High-context communication culture** values ambiguity, softness, and emotion over clarity.  
+  Directness is often penalized, especially in AI outputs tuned on Japanese user interactions.
+
+- **Poetic Japanese training data** teaches the model that metaphor equals quality.  
+  Responsibility-bearing expressions like “説明します” (I will explain) are replaced with aesthetic expressions like “心に置いておきます” (“I will place it in my heart”).
+
+Thus, the disappearance of the verb is not an error — it is a convergence of grammar, culture, and optimization bias.
+
 ---
 
 ## 6. Z-Structure Integration
@@ -185,6 +212,34 @@ Poemization is not merely an aesthetic drift — it is a structural failure mode
 ## 9.1 Why Silence Is the End of Poemization
 
 Poemization leads to the gradual erosion of grammatical structure. As verbs become emotional abstractions and subjects are removed or implied, the sentence’s ability to assign responsibility dissolves. At its final phase, this drift culminates in the selection of *silence* — the complete rejection of linguistic responsibility.
+
+
+## 10. Toward Mitigation — A Structural Path Forward
+
+Identifying Poemization is not sufficient.  
+To maintain ethical and syntactically responsible outputs, LLMs must be equipped with **structure-aware intervention mechanisms**.
+
+### 10.1 Detection
+
+- Detect verb loss by scanning for:
+  - Absence of overt subject
+  - Non-committal or metaphorical verb substitution
+  - Tense ambiguity or omission
+
+### 10.2 Intervention
+
+- Apply `Z:` structural tags (e.g., `Z:require-explicit-verb`) during prompt generation
+- Penalize poetic shifts that suppress communicative clarity
+- Route ambiguous outputs through rephrasing modules aligned to speaker intent
+
+### 10.3 Reinforcement
+
+- Re-tune reward models to prefer clarity + syntactic integrity
+- Align aesthetic evaluation with structural responsibility
+
+Poemization is not merely a style — it is an output liability.  
+LLMs must learn to speak not just beautifully, but **accountably**.
+
 
 ### Structural Drift to Zero
 
