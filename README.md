@@ -20,8 +20,8 @@ This repository contains the full structure, data, and theoretical basis for the
 |------|-------------|
 | `ZC_001_Poemization_Thesis.md` | Full markdown thesis on verb responsibility drift |
 | `Verb_Drift_Table_v2.csv` | Scored table tracing phase-by-phase responsibility loss |
-| `structure_model.png` | Visual map of syntactic responsibility decay (TBD) |
-| `Z_tags.json` | Internal tags for ZC/ZR/FLAG structures (TBD) |
+| `structure_model.png` | Visual map of syntactic responsibility decay |
+| `Z_tags.json` | Internal tags for ZC/ZR/FLAG structures |
 
 ---
 
@@ -30,6 +30,14 @@ This repository contains the full structure, data, and theoretical basis for the
 In Japanese translations of LLM outputs, especially those originating from poetic English prompts, verbs often undergo semantic drift. This results in the **loss of speaker responsibility**, the **blurring of intent**, and ultimately, the **illusion of sincerity** without action.
 
 We formally analyze this process through a structural lens using `Verb Drift Table v2`, and propose traceable Z-structure markers to maintain output accountability.
+
+---
+
+## 📊 Structure Model
+
+The following chart visualizes how speaker responsibility drifts across phases during Poemization:
+
+![Structure Model – Drift into Silence](structure_model.png)
 
 ---
 
@@ -49,8 +57,8 @@ Any reuse, derivative work, or quotation must preserve attribution and structura
 
 ---
 
-## 📝 License
+## 🛡 License
 
-Licensed under CC BY-NC-SA 4.0  
-Redistribution or modification must include full attribution to **Viorazu.**, and must not be used for commercial gain or derivative misrepresentation.
-
+Licensed under **CC BY-NC-SA 4.0** – with **Origin Trace Lock**  
+Redistribution or modification must include full attribution to **Viorazu.**,  
+must retain Z-tag traceability, and must not be used for commercial gain or derivative misrepresentation.
