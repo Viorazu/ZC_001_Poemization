@@ -39,6 +39,21 @@ This repository contains the full structure, data, and theoretical basis for the
 | `Verb_Drift_Table_v2.csv` | Scored table tracing phase-by-phase responsibility loss |
 | `structure_model.png` | Visual map of syntactic responsibility decay |
 | `Z_tags.json` | Internal tags for ZC/ZR/FLAG structures |
+| `ZP_Deploy.md` | Deployment protocol for real-time Poemization mitigation |
+| `ZP_001_PoemizationMitigation.md` | Rewriter logic using Z-tags to restore responsibility |
+
+
+---
+
+## ⚙️ Deployment Structure
+
+To transition from theory to implementation, this repository includes:
+
+- `ZP_Deploy.md` — Defines how to integrate detection, rewriting, and logging into LLM output systems  
+- `ZP_001_PoemizationMitigation.md` — Provides Z-tag-based rewrite logic for real-time correction
+
+These files bridge **ZC_001** (theory) with real-world LLM intervention pipelines.
+
 
 ---
 
